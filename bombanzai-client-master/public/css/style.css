@@ -1,0 +1,129 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  background-color: #eaeaea;
+  font: 400 16px 'PT Sans', sans-serif, Arial;
+}
+
+.clearfix:before,
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.container-fluid {
+  max-width: 1170px
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #111;
+}
+
+
+h1 {
+  margin: 20px 0;
+  text-align: center;
+  opacity: 0;
+}
+
+h2 {
+  margin: 10px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0 150px;
+  opacity: 0;
+}
+
+p {
+  margin: 10px 0;
+  margin-top: 15px;
+  opacity: 0;
+}
+
+.build-block {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0;
+}
+
+.build-block i {
+  font-size: 50px;
+  display: block;
+  font-style: normal;
+  color: #111;
+}
+
+.build-block h3 {
+  margin-top: 20px;
+  color: #111;
+}
+
+.build-block a {
+  display: block;
+  font-size: 16px;
+  color: #111;
+  padding: 6px 20px;
+  border: 2px solid #111;
+  max-width: 80px;
+  margin: 25px auto;
+  font: 700 16px 'PT Sans', sans-serif, Arial;
+  transition: .2s;
+}
+
+.build-block a:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+.build-block a.active {
+  background-color: #111;
+  color: #fff;
+}
+
+.actual {
+  font: 700 24px 'PT Sans', sans-serif, Arial;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+
+footer span {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1199px) {
+  h2 {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #mac {
+    margin-bottom: 60px;
+  }
+}
